@@ -28,5 +28,11 @@
 				"Mac"
 			]
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProfileSystem",
+			"Enabled": true
+		}
 	]
 }

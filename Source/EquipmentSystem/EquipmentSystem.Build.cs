@@ -26,7 +26,15 @@ public class EquipmentSystem : ModuleRules
 			new string[]
 			{
 				"CoreUObject",
-				"Engine"
+				"Engine",
+				"ProfileSystem"
+			}
+		);
+		
+		PublicIncludePathModuleNames.AddRange(
+			new string[]
+			{
+				"ProfileSystem"
 			}
 		);
 	}
