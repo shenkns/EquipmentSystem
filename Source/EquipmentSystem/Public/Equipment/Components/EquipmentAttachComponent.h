@@ -20,7 +20,7 @@ struct FEquipmentAttachData
 	FRotator Rotation;
 };
 
-UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+UCLASS(ClassGroup = (Equipment), meta = (BlueprintSpawnableComponent))
 class EQUIPMENTSYSTEM_API UEquipmentAttachComponent : public UEquipmentComponent
 {
 	GENERATED_BODY()

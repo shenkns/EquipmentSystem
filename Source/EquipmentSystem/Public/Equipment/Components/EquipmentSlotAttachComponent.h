@@ -7,14 +7,14 @@
 
 class UConfigurationSlotDataAsset;
 
-UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+UCLASS(ClassGroup = (Equipment), HideCategories = ("Equipment|Attach"), meta = (BlueprintSpawnableComponent))
 class EQUIPMENTSYSTEM_API UEquipmentSlotAttachComponent : public UEquipmentAttachComponent
 {
 	GENERATED_BODY()
 
 protected:
 	
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Equipment|Attach")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Equipment|SlotAttach")
 	TMap<UConfigurationSlotDataAsset*, FEquipmentAttachData> SlotsAttachData;
 
 public:

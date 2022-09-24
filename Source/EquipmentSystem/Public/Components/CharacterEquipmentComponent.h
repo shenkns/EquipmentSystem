@@ -9,7 +9,7 @@ class AEquipment;
 class UConfigurationPrimarySlotDataAsset;
 class UConfigurationSlotDataAsset;
 
-UCLASS(ClassGroup=(Custom), meta = (BlueprintSpawnableComponent))
+UCLASS(ClassGroup=(Equipment), meta = (BlueprintSpawnableComponent))
 class EQUIPMENTSYSTEM_API UCharacterEquipmentComponent : public UActorComponent
 {
 	GENERATED_BODY()

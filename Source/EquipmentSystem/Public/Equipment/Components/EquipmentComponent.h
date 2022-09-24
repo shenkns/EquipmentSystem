@@ -7,7 +7,7 @@
 
 class AEquipment;
 
-UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+UCLASS(ClassGroup = (Equipment), meta = (BlueprintSpawnableComponent))
 class EQUIPMENTSYSTEM_API UEquipmentComponent : public UActorComponent
 {
 	GENERATED_BODY()
